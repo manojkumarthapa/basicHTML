@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+caption {
+  font-size: 1.2em;
+}
+table,
+th,
+td {
+  border: 2px solid white;
+  border-collapse: collapse;
+  line-height: 2em;
+  min-width: 200px;
+}
+
+table,
+th,
+td {
+  background-color: #d6eeee;
+}
+
+#lists {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  min-width: 50vw;
+  padding-left: 20px;
+}
