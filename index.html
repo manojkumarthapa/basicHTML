@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Basic HTML</title>
+</head>
+<body>
+    <section id="h1toh5">
+        <h1>This is 32 px</h1>
+        <h2>This is 24px</h2>
+        <h3>This is 18.72px</h3>
+        <h4>This is 16px</h4>
+        <h5>This is 13.28px</h5>
+        <h6>This is 12px</h6>
+    </section>
+    <section id="preformat">
+        <pre>
+            This is not a poem
+            But this used to be a poem problem
+            Until preformat was introduced
+            Now we just use <q>pre</q>
+        </pre>
+    </section>
+    <section id="address">
+        <address>
+            Manoj Kumar Thapa
+            189 Samuel Street
+            London, UK
+            SE18 5LE
+        </address>
+    </section>
+    <section id="bdo">
+        <p>The bdo attribute defines the bi directional order of the text</p>
+        <bdo dir="rtl">The bdo attribute defines the bi directional order of the text</bdo>
+    </section>
+    <section id="blockquote">
+        <blockquote cite="randomsite.html">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis dolorem error eligendi illum non illo sit nesciunt inventore blanditiis nisi itaque voluptatem tenetur, ab dignissimos harum natus minus enim consequuntur.</p>
+            <cite>blockquote</cite> just for giving credit and good for seo
+            <p>The cite element puts text in italic</p>
+            <abbr title="Hyper Text Markup Language">HTML</abbr>
+        </blockquote>
+    </section>
+    <section id="image">
+        <img src="assets/img/helloworld.png" alt="helloworld" title="helloworld" style="width: 100px; height: 100px;">
+        <h4>Image Map -click on any language</h4>
+        <img src="assets/img/programminglanguage.png" alt="programminglanguage" title="programmingLanguage" usemap="#language">
+        <map name="language">
+            <area shape="rect" coords="0,0,315,106" href="https://www.python.org/" target="_blank" alt="pythonLanguage" title="pythonLangauge">
+            <area shape="rect" coords="353,0,465,179" href="https://www.java.com/en/" target="_blank" alt="javaLanguage"
+                title="javaLangauge">
+            <area shape="rect" coords="540,0,728,164" href="https://www.php.net/" target="_blank" alt="phpLanguage" title="phpLangauge">
+            <area shape="rect" coords="9,128,136,292" href="https://www.javascript.com/" target="_blank" alt="phpLanguage"
+                title="phpLangauge">
+            <area shape="rect" coords="180,179,353,261" href="https://www.cplusplus.com/" target="_blank" alt="c++Language"
+                title="c++Langauge">
+            <area shape="rect" coords="455,195,665,272" href="https://www.ruby-lang.org/en/" target="_blank" alt="rubyLanguage"
+                title="rubyLangauge">
+            <area shape="rect" coords="6,295,262,415" href="https://www.scala-lang.org/" target="_blank" alt="scalaLanguage"
+                title="scalaLangauge">
+            <area shape="rect" coords="278,283,525,368" href="https://nodejs.org/en/" target="_blank" alt="nodeJSLanguage"
+                title="nodeJSLangauge">
+            <area shape="rect" coords="536,298,715,413" href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" alt="c#Language"
+                title="c#Langauge">
+        </map>
+        <h4>Click on the fruits</h4>
+        <img src="assets/img/health.jpg" alt="health" title="health" usemap="#health">
+        <map name="health">
+            <area shape="circle" coords="328,124,60" href="https://healthyeating.sfgate.com/health-benefits-granny-smith-apples-3334.html" target="_blank" alt="grannySmith" title="grannySmith" id="imageGranny">
+            <area shape="circle" coords="458,154,65" href="https://www.bbcgoodfood.com/howto/guide/health-benefits-oranges" target="_blank" alt="orange" title="orange" id="imageOrange">
+            <area shape="circle" coords="384,258,60" href="https://www.healthline.com/nutrition/10-health-benefits-of-apples#TOC_TITLE_HDR_3"
+            target="_blank" alt="apple" title="apple" id="imageApple">
+            <area shape="poly" coords="485,96,499,84,520,107,567,193,520,279,396,356,344,353,372,313,425,313,461,276,506,183,510,145" href="https://www.bbcgoodfood.com/howto/guide/health-benefits-bananas" target="_blank" alt="banana"title="bamama" id="imageBanana">
+            <area shape="poly" coords="308,188,264,203,232,238,255,292,329,305"
+            href="https://www.healthline.com/nutrition/benefits-of-grapes#TOC_TITLE_HDR_5" target="_blank" alt="grapes" title="grapes" id="imageGrapes">
+        </map>
+        <h4>Resize browser to change image</h4>
+        <picture>
+
+        </picture>
+    </section>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/app.js"></script>
+</body>
+</html>
